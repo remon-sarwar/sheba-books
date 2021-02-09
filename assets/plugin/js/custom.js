@@ -11,7 +11,7 @@
 
 /*Mid nav Start*/
 $(window).scroll(function(){
-    $('#nav-bottom,#sidebar').toggleClass('scrolled', $(this).scrollTop() > 90);
+    $('#nav-bottom,#sidebar').toggleClass('scrolled', $(this).scrollTop() > 40);
 });
 /*Mid nav end*/
 

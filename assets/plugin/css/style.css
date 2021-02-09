@@ -10,7 +10,7 @@ body{
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Quicksand', sans-serif;
-    /*font-weight:bolder;*/
+
 }
 
 a,p,span,b,samp{
@@ -39,6 +39,27 @@ section, footer{
         max-width:1225px;
     }
 }
+
+@media screen and (min-width: 576px) and (max-width: 1199px) {
+    a, h6{
+        /*font-size: 1vw;*/
+        font-size: 12px;
+    }
+    p{
+        font-size: 13px;
+    }
+    h3, h5{
+        font-size: 2vw;
+        /*font-size: 15px;*/
+    }
+
+    #footer h5{
+        margin-bottom: 1px;
+    }
+
+
+}
+
 /*------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------ Main css start-----------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------*/
@@ -108,8 +129,8 @@ section, footer{
 }
 
 form.example input[type=text] {
-    padding: 11px;
-    font-size: 17px;
+    padding: 8px;
+    font-size: 18px;
     border: 1px solid #F27438;
     border-right: none;
     border-radius: 20px 0px 0px 20px ;
@@ -124,7 +145,7 @@ form.example button {
     padding: 8px;
     background: #F27438;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     border: 2px solid #F27438;
     border-radius: 0px 20px 20px 0px ;
     border-left: none;
@@ -137,7 +158,7 @@ form.example button:hover {
 
 .blinking{
     text-align: center;
-    animation:blinkingText 1.5s infinite;
+    animation:blinkingText 2.5s infinite;
 }
 @keyframes blinkingText{
     0%{     color: red;    }
@@ -152,7 +173,7 @@ form.example button:hover {
 
 /*-------cart start css------------*/
 .cart .btn i{
-    font-size: 35px;
+    font-size: 32px;
     color: #a28a8a;
 }
 .cart .btn{
@@ -161,18 +182,18 @@ form.example button:hover {
 }
 .btn strong{
     position: relative;
-    top: -12px;
-    font-size: 20px;
+    top: -7px;
+    font-size: 19px;
     margin-left: 5px;
 }
 .btn .badge {
     position: relative;
-    top: -20px;
-    margin-left: -30px;
+    top: -17px;
+    margin-left: -28px;
 }
 
 .badge{
-    font-size: 100%;
+    font-size: 90%;
     border-radius:50% ;
 
 }
@@ -185,14 +206,14 @@ form.example button:hover {
 
 /*---------Account start css----------*/
 .btn .fa-user-alt{
-    font-size: 30px;
+    font-size: 27px;
     color: #a28a8a;
 }
 
 .icon-account span{
     position: relative;
-    top: -5px;
-    font-size: 20px;
+    top: -1px;
+    font-size: 19px;
     font-weight: bold;
 }
 
@@ -300,7 +321,7 @@ form.example button:hover {
 }
 
 .navbar .nav-item {
-    padding: .5rem .5rem;
+    padding: .0rem .5rem .0rem .5rem;
     margin: 0 .25rem;
 }
 
@@ -312,7 +333,7 @@ form.example button:hover {
     width: 100%;
     left: 0;
     right: 0;
-    top: 45px;
+    top: 31px;
 }
 
 .navbar .dropdown:hover .dropdown-menu,
@@ -323,7 +344,8 @@ form.example button:hover {
 
 .navbar .dropdown-menu {
     border: 1px solid rgba(0, 0, 0, .15);
-    background-color: #02040cc9;
+    /*background-color: #02040cc9;*/
+    background-color: #02040ce8;
     min-height: 300px;
 }
 
@@ -379,9 +401,13 @@ span.navbar-toggler.icon {
 
 
 .sub::before{
+    /*content: "\f02d";*/
+    /*content: "\f02d";*/
+    content: "\f518";
     font-family: 'Font Awesome 5 Free';
-    content: " \f0a4";
     color: #5bff31;
+    font-weight: bold;
+    margin-right: 2px;
 }
 
 
@@ -389,6 +415,14 @@ span.navbar-toggler.icon {
     background-color: #F27438;
 }
 
+.sub-button button{
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    background: #F27438;
+    border: none;
+    cursor: pointer;
+}
 
 /****************Main Nav Manu end **************************/
 
@@ -724,12 +758,9 @@ section .section-title {
 }
 #footer h5{
     padding-left: 10px;
-    /*border-left: 3px solid #eeeeee;*/
-    /*border-left: 3px solid #00ff3a;*/
     border-left: 3px solid #F27438;
     padding-bottom: 6px;
-    margin-bottom: 20px;
-    /*color:#ffffff;*/
+    margin-bottom: 6px;
     color:black;
 }
 #footer a {
@@ -745,6 +776,7 @@ section .section-title {
 #footer p {
     /*color: #ffffff;*/
     color: black;
+    padding-left: 10px;
 }
 #footer ul.social li{
     /*padding: 3px 0;*/
@@ -961,7 +993,7 @@ section .section-title {
     height: 100%;
     max-height: 65%;
     position: fixed;
-    top: 180px;
+    top: 170px;
     left: -300px;
     z-index: 999;
 }
@@ -996,7 +1028,9 @@ section .section-title {
     display: flex;
     align-items: center;
     /*background-color: #F27438;*/
-    background-color: #76C043;
+    /*background-color: #76C043;*/
+    /*background-color: #EC6058;*/
+    background-color: #03612C;
     /*color: #FFFFFF;*/
 }
 
@@ -1305,6 +1339,7 @@ section .section-title {
 
 .chiller-theme .sidebar-wrapper .sidebar-menu ul li a{
     color: black;
+    font-size: 1vw;
 }
 
 
@@ -1483,6 +1518,7 @@ section .section-title {
 }
 .authors-img:hover img{
     border: 2px solid #5bff31;
+    background: white;
 
 }
 
