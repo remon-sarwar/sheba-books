@@ -79,7 +79,7 @@ section, footer{
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #ff6318; /* Set a background color */
+    background-color: #009504; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
@@ -88,7 +88,7 @@ section, footer{
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #EE6159; /* Add a dark-grey background on hover */
 }
 
 /*-----------------------------------------------------------
@@ -118,20 +118,20 @@ section, footer{
 }
 
 .search{
-    background: #F27438;
+    background: #EE6159;
 }
 .search{
     border-radius: 20px;
 }
 
 .search:hover{
-    background-color: #76C043;
+    background-color: #009504;
 }
 
 form.example input[type=text] {
     padding: 8px;
     font-size: 18px;
-    border: 1px solid #F27438;
+    border: 1px solid #EE6159;
     border-right: none;
     border-radius: 20px 0px 0px 20px ;
     float: left;
@@ -143,22 +143,22 @@ form.example button {
     float: left;
     width: 20%;
     padding: 8px;
-    background: #F27438;
+    background: #EE6159;
     color: white;
     font-size: 17px;
-    border: 2px solid #F27438;
+    border: 2px solid #EE6159;
     border-radius: 0px 20px 20px 0px ;
     border-left: none;
     cursor: pointer;
 }
 
 form.example button:hover {
-    background: #76C043;
+    background: #009504;
 }
 
 .blinking{
     text-align: center;
-    animation:blinkingText 2.5s infinite;
+    animation:blinkingText 3.0s infinite;
 }
 @keyframes blinkingText{
     0%{     color: red;    }
@@ -198,7 +198,7 @@ form.example button:hover {
 
 }
 .badge-secondary{
-    background-color: #F27438;
+    background-color: #EE6159;
     color: white;
 }
 
@@ -222,7 +222,7 @@ form.example button:hover {
     padding-left: 10px;
 }
 .account .dropdown-menu{
-    background-color: #76c043;
+    background-color: #009504;
 }
 
 .account .dropdown-menu .dropdown-item{
@@ -298,7 +298,7 @@ form.example button:hover {
 
 
 #nav-bottom{
-    background: #F27438;
+    background: #EE6159;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255 255 255);
@@ -401,25 +401,24 @@ span.navbar-toggler.icon {
 
 
 .sub::before{
-    /*content: "\f02d";*/
-    /*content: "\f02d";*/
     content: "\f518";
     font-family: 'Font Awesome 5 Free';
-    color: #5bff31;
+    color: #009504;
     font-weight: bold;
     margin-right: 2px;
+    font-size: 12px;
 }
 
 
 .sub:hover{
-    background-color: #F27438;
+    background-color: #EE6159;
 }
 
 .sub-button button{
     width: 50%;
     margin-right: 25%;
     margin-left: 25%;
-    background: #F27438;
+    background: #EE6159;
     border: none;
     cursor: pointer;
 }
@@ -443,7 +442,7 @@ span.navbar-toggler.icon {
 }
 
 .recent{
-    background-color: #76C043;
+    background-color: #009504;
     color: #f5f5f5f5;
     text-transform: uppercase;
     text-align: center;
@@ -534,12 +533,12 @@ span.navbar-toggler.icon {
 
 
  .product{
-     border: 1px solid #F27438;
+     border: 1px solid #EE6159;
      padding: 0px;
      border-radius: 10px;
  }
 .product button{
-    background-color: #F27438;
+    background-color: #EE6159;
     color: white;
     border-radius: 0px 0px 10px 10px;
 }
@@ -555,7 +554,7 @@ span.navbar-toggler.icon {
 
 }
 .product:hover button{
-    background-color: #76C043;
+    background-color: #009504;
     color: white;
     border-radius: 0px 0px 10px 10px;
 }
@@ -590,7 +589,7 @@ span.navbar-toggler.icon {
 }
 .all-books{
     margin: 0 auto;
-    border: 1px solid #F27438;
+    border: 1px solid #EE6159;
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 10px;
@@ -612,7 +611,7 @@ span.navbar-toggler.icon {
 .all-books strong::after{
     content: "\f101";
     font-family: "Font Awesome 5 Free";
-    color: #F27438;
+    color: #EE6159;
     padding-left: 5px;
     font-size: 20px;
 }
@@ -679,7 +678,7 @@ span.navbar-toggler.icon {
 ------------------------------------------------------------------*/
 
 .authors-slide img{
-    border: 2px solid #F27438;
+    border: 2px solid #EE6159;
     padding: 0px;
     border-radius: 50%;
     margin-bottom: 5px;
@@ -758,7 +757,7 @@ section .section-title {
 }
 #footer h5{
     padding-left: 10px;
-    border-left: 3px solid #F27438;
+    border-left: 3px solid #EE6159;
     padding-bottom: 6px;
     margin-bottom: 6px;
     color:black;
@@ -771,7 +770,7 @@ section .section-title {
     -webkit-text-decoration-skip: objects;
 }
 #footer .fa{
-    color: #F27438;
+    color: #EE6159;
 }
 #footer p {
     /*color: #ffffff;*/
@@ -1027,10 +1026,9 @@ section .section-title {
     padding: 5px 20px;
     display: flex;
     align-items: center;
-    /*background-color: #F27438;*/
-    /*background-color: #76C043;*/
+    /*background-color: #EE6159;*/
     /*background-color: #EC6058;*/
-    background-color: #03612C;
+    background-color: #009504;
     /*color: #FFFFFF;*/
 }
 
@@ -1426,7 +1424,7 @@ section .section-title {
 
 .list h5{
     padding: 10px;
-    background-color: #76C043;
+    background-color: #009504;
     color: #FFFFFF;
 
 }
@@ -1513,7 +1511,7 @@ section .section-title {
 }
 
 .authors-img:hover{
-    background-color: #F27438;
+    background-color: #EE6159;
     border-radius: 10px;
 }
 .authors-img:hover img{
@@ -1526,7 +1524,7 @@ section .section-title {
     width: 100%;
     height: 150px;
     border-radius: 50%;
-    border: 1px solid #F27438;
+    border: 1px solid #EE6159;
     /*padding: 10px;*/
     margin: 0px 0px 10px 0px;
 }
@@ -1576,7 +1574,7 @@ section .section-title {
     height: 100%;
     top:0;
     left:0;
-    background-color: #F27438;
+    background-color: #EE6159;
     border-radius: 10px;
     position: absolute;
     z-index: -1;
@@ -1613,7 +1611,7 @@ section .section-title {
 }
 .vertical-tabs .nav-tabs .nav-link{
     border-radius: 0;
-    background:#F27438;
+    background:#EE6159;
     text-align:center;
     font-size: 16px;
     border:1px solid #424242;
@@ -1623,8 +1621,8 @@ section .section-title {
 }
 .vertical-tabs .nav-tabs .nav-link.active{
     /*background-color:#700000!important;*/
-    /*background-color:#F27438!important;*/
-    background-color:#76C043!important;
+    /*background-color:#EE6159!important;*/
+    background-color:#009504!important;
     color:#fff;
 }
 .vertical-tabs .tab-content>.active{
@@ -1707,7 +1705,7 @@ section .section-title {
 
 .ads {
     /*background-color: #A569BD;*/
-    background-color: #F27438;
+    background-color: #EE6159;
 
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -1798,7 +1796,7 @@ section .section-title {
 
 .ads {
     /*background-color: #A569BD;*/
-    background-color: #F27438;
+    background-color: #EE6159;
 
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
