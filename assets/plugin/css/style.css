@@ -115,6 +115,11 @@ section, footer{
         top: 0;
         padding: 0;
     }
+
+    #all_pag{
+        /*top: 150px;*/
+        margin-top: 0px;
+    }
 }
 
 .search{
@@ -183,7 +188,7 @@ form.example button:hover {
 .btn strong{
     position: relative;
     top: -7px;
-    font-size: 19px;
+    /*font-size: 19px;*/
     margin-left: 5px;
 }
 .btn .badge {
@@ -213,7 +218,7 @@ form.example button:hover {
 .icon-account span{
     position: relative;
     top: -1px;
-    font-size: 19px;
+    /*font-size: 19px;*/
     font-weight: bold;
 }
 
@@ -276,16 +281,21 @@ form.example button:hover {
     background-color: #fff;
     color: black;
     /*height: 50px;*/
-    top: 110px;
-    margin-top: 5px;
-    padding-bottom: 5px;
+    /*top: 110px;*/
+    /*top:0px;*/
+    /*margin-top: 5px;*/
+    /*padding-bottom: 5px;*/
 }
 .navbar-r.scrolled{
-    background:green;
+    /*background:green;*/
     top:0;
     margin-top:0px;
     /*height: 95px;*/
     /*position: relative;*/
+}
+#all_pag{
+    /*top: 150px;*/
+    margin-top: 150px;
 }
 
 /*.sidebar-wrapper .scrolled{*/
@@ -401,7 +411,8 @@ span.navbar-toggler.icon {
 
 
 .sub::before{
-    content: "\f518";
+    /*content: "\f518";*/
+    content: "\f02d";
     font-family: 'Font Awesome 5 Free';
     color: #009504;
     font-weight: bold;
