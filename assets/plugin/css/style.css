@@ -174,8 +174,6 @@ form.example button:hover {
 }
 
 
-
-
 /*-------cart start css------------*/
 .cart .btn i{
     font-size: 32px;
@@ -775,7 +773,7 @@ section .section-title {
 }
 #footer a {
     /*color: #ffffff;*/
-    color: black;
+    color: #424242;
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -785,7 +783,7 @@ section .section-title {
 }
 #footer p {
     /*color: #ffffff;*/
-    color: black;
+    color: #424242;
     padding-left: 10px;
 }
 #footer ul.social li{
